@@ -1,0 +1,23 @@
+{
+  "name": "upload_cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.10.1",
+    "fastify-file-upload": "^3.0.0",
+    "formidable": "^1.2.2",
+    "mv": "^2.1.1",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  }
+}

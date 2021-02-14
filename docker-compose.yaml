@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  static-server:
+    name: static-server
+    build: .
+    ports:
+      - 80
+    environment:
+      - VIRTUAL_HOST=static.hacktzi.tk
+      - PORT=80
